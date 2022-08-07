@@ -55,7 +55,7 @@ export default function TextForm(props) {
             </div>
             <h1 className="pre mx-2">Preview</h1>
             <div className="mb-3">
-                <textarea class="form-control bg-success text-black bg-opacity-25 mx-2" value={text} id="preview" rows="8"></textarea>
+                <textarea className="form-control bg-success text-black bg-opacity-25 mx-2" value={text} onChange={handleOnChange} id="preview" rows="8"></textarea>
             </div>
             {/* <p>{text}</p> */}
         </>

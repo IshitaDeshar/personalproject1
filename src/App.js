@@ -12,8 +12,8 @@ function App() {
       <Navbar title="Word Counter" AboutText="About Us"/>
       {/* <Navbar/> */}
       <div className="container my-3">
-      {/* <TextForm heading="Enter the text to analyze below"/> */}
-      <About/>
+      <TextForm heading="Enter the text to analyze below"/>
+      {/* <About/> */}
       </div>
       
     </>
